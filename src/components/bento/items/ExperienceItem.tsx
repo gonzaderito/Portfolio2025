@@ -73,24 +73,24 @@ export default function ExperienceItem() {
                   {job.role}
                 </h4>
 
-                <p className="text-neutral-500 dark:text-neutral-400 text-sm">
+                <p className="text-neutral-500  text-sm">
                   {job.company}
                 </p>
 
                 <br />
 
-                <p className="text-neutral-500 dark:text-neutral-400 text-sm">
+                <p className="text-neutral-500  text-sm">
                   {job.description}
                 </p>
               </div>
 
-              <span className="text-neutral-500 dark:text-neutral-400 text-sm whitespace-nowrap">
+              <span className="text-neutral-500  text-sm whitespace-nowrap">
                 {job.period}
               </span>
             </div>
 
             {i !== t.experience.length - 1 && (
-              <div className="h-px bg-neutral-200 dark:bg-neutral-800" />
+              <div className="h-px bg-neutral-200" />
             )}
           </FadeIn>
         ))}
@@ -103,7 +103,7 @@ export default function ExperienceItem() {
             href="/cv.pdf"
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-6 inline-flex items-center gap-2 border text-black border-neutral-300 dark:border-neutral-700 px-4 py-2 rounded-full text-base font-medium hover:bg-neutral-100 dark:hover:bg-neutral-800 transition"
+            className="mt-6 inline-flex items-center gap-2 border text-black border-neutral-300 dark:border-neutral-700 px-4 py-2 rounded-full text-base font-medium hover:bg-neutral-100 transition"
           >
             {t.cvButton} <MdArrowOutward size={16} />
           </a>
