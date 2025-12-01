@@ -55,7 +55,7 @@ export default function ExperienceItem() {
   const t = texts[lang]; // ← Selecciona EN o ES automáticamente
 
   return (
-    <BentoItem className="md:col-span-2 row-span-2 h-166 p-6 rounded-2xl bg-white dark:bg-neutral-900 flex flex-col">
+    <BentoItem className="md:col-span-2 row-span-2 h-166 p-6 rounded-2xl bg-white  flex flex-col">
       {/* Tag superior */}
       <FadeIn>
         <span className="text-base bg-(--color-font) text-white px-4 py-2 rounded-full w-fit font-medium">
