@@ -13,7 +13,6 @@ Tailwind CSS
 
 Framer Motion
 
-(Agregá las demás que uses)
 
 🎯 Objetivo
 
