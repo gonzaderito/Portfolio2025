@@ -69,8 +69,7 @@ export default function ProjectsPage() {
 
           {/* Live Preview */}
           <Link
-            href="#"
-            target="_blank"
+            href="/"
             className="bg-(--color-font) rounded-2xl p-6 shadow-sm flex items-center justify-center hover:bg-(--color-font) transition"
           >
             <span className="font-semibold text-white">{t.live}</span>
