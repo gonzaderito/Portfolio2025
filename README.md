@@ -21,4 +21,4 @@ Este portfolio no solo funciona como carta de presentación, sino también como 
 🌐 Demo
 
 Podés ver la versión deployada acá:
-https://gonzaloderito.netlify.app/
+https://gonzaloderito-lovat-tau.vercel.app/
