@@ -69,7 +69,7 @@ export default function ExperienceItem() {
           <FadeIn key={i} delay={0.05 * i}>
             <div className="flex justify-between py-6">
               <div>
-                <h4 className="text-lg font-semibold text-neutral-900 dark:text-white">
+                <h4 className="text-lg font-semibold text-neutral-900">
                   {job.role}
                 </h4>
 
